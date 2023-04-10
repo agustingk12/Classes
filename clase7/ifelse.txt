@@ -1,0 +1,6 @@
+Press computer button;
+if (turns on){
+	happy
+} else {
+	panic
+}

@@ -1,0 +1,11 @@
+function identArg {
+	Read card;
+	if (Nationality = Argentina){
+		Use prefix "che"
+	}else Read normally
+};
+
+Gather cards;
+for (tarjetasLeidas = 0;tarjetasLeidas >= invitados; tarjetasLeidas = +1){
+  call identArg
+}end introductions

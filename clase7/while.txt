@@ -1,0 +1,4 @@
+Dishes in the sink;
+while (dirty){
+	Wash
+}Put away

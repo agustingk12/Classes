@@ -1,0 +1,6 @@
+Open spotify
+do {
+	listen to a song
+}
+while (good);
+skip song;

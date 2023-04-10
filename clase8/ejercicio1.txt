@@ -1,0 +1,10 @@
+function checkEven{
+	Read number;
+	if (number ends in 0, 2, 4, 6 or 8){
+		return even
+	}return odd
+};
+
+;for (number; number >= 10; number = +1){
+	call checkEven
+}Stop counting

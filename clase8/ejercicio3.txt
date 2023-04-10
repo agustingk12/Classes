@@ -1,0 +1,21 @@
+function profitCalc {
+	check transaction report;
+	if (export>import){
+		profit
+	}elseif (export <impor){
+		loss
+	}else Broke even
+};
+
+Read profit report;
+switch (profit margin){
+	case Profit:
+		wage = +2%;
+		break;
+	case Loss:
+		wage = -1%;
+		break;
+	case Broke even:
+		Wage stays the same;
+		break;
+}adjust wage

@@ -1,0 +1,4 @@
+Make coffe;
+for (coffee = 250ml; coffee >0; coffee -= 10ml){
+	Take a sip
+} Wash cup
