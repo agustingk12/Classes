@@ -1,0 +1,84 @@
+1) Según la oficina nacional de recopilación de datos (oficina ficticia), el 99% de los programadores beben café. Crea un algoritmo para preparar un buen café.
+
+> - Preparar el agua caliente, los materiales y la taza para el café
+> 
+> - En caso de ser café instantáneo o granulado:
+>         mezclar café en polvo, azúcar o edulcorante a preferencia con agua caliente
+> 
+> - En caso de ser café en granos:
+>         triturar con un molinillo e insertar en la cafetera
+> 
+> - Una vez listo, servir café en la taza y agregar azúcar o edulcorante a preferencia
+
+2) Crear un algoritmo para encender un auto.
+
+> - Abrir la puerta del auto
+> -Entrar al auto y poner la llave en la ignición
+> 
+> -En caso de ser manual:
+>        Comprobar que este en neutro y el freno de mano se encuentre activado
+>        Apretar el embrague a fondo y girar la llave al contacto
+> 
+> -En caso de ser automático:
+>        Comprobar que este en "Park" o "Neutro"
+>        Girar la llave al contacto
+
+3) Suponiendo que ya te encuentras en la calle, crea un algoritmo para conducir un vehículo.
+
+> Interpretando "conducir un vehículo" a modo de arranque desde un semáforo con un vehículo promedio
+> 
+> -Comprobar que el motor se encuentre encendido, el freno en uso y en caso de ser manual embrague presionado a fondo
+> 
+> -Comprobar que el vehículo este en neutro y el freno de mano se encuentre fuera de uso
+> 
+> -En caso de ser automático llevar la palanca de cambio a "Drive"
+>      Deprimir el freno y presionar el acelerador
+> 
+> -En caso de ser manual llevar la palanca a la posición de la primer marcha
+>      Deprimir el freno
+>      Deprimir el embrague lentamente y presionar el acelerador
+
+4) Empieza tu día, querés desayunar e ir a presumir tu nuevo auto a tus amigos. Crea un algoritmo para ello. Puedes hacer un llamado a cualquier algoritmo que hayas creado anteriormente. Uso algoritmo X
+
+> - Preparar el agua caliente, los materiales y la taza para el café
+> 
+> - En caso de ser café instantáneo o granulado:
+>         mezclar café en polvo, azúcar o edulcorante a preferencia con agua caliente
+> 
+> - En caso de ser café en granos:
+>         triturar con un molinillo e insertar en la cafetera
+> 
+> - Una vez listo, servir café en la taza y agregar azúcar o edulcorante a preferencia
+> 
+> -Dirigirse hacia el estacionamiento con las llaves del auto en mano
+> 
+> -Desactivar la alarma
+> 
+> - Abrir la puerta del auto
+> 
+> -Entrar al auto y poner la llave en la ignición
+> 
+> -En caso de ser manual:
+>        Comprobar que este en neutro y el freno de mano se encuentre activado
+>        Apretar el embrague a fondo y girar la llave al contacto
+> 
+> -En caso de ser automático:
+>        Comprobar que este en "Park" o "Neutro"
+>        Girar la llave al contacto
+> 
+> -Comprobar que el motor se encuentre encendido y el freno de mano en uso
+> 
+> -Comprobar que el vehículo este en neutro
+> 
+> -En caso de ser automático llevar la palanca de cambio a "Drive"
+>      Desactivar el freno de mano
+>      Deprimir el freno y presionar el acelerador
+> 
+> -En caso de ser manual llevar la palanca a la posición de la primer marcha
+>      Desactivar el freno de mano
+>      Deprimir el freno
+>      Deprimir el embrague lentamente y presionar el acelerador
+> 
+> -Dirigirse hacia la salida del estacionamiento evitando colisionar con otros vehículos o estructuras
+> 
+> -
