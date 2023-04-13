@@ -1,7 +1,7 @@
 const car = ['hyundai', 'honda', 'toyota', 'subaru', 'nissan' ]
-const deleteFirst = (a) => {
-  a.shift ();
-  console.log(a);
+const deleteFirst = (arr) => {
+  arr.shift ();
+  console.log(arr);
 }
 
 deleteFirst (car)
