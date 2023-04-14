@@ -4,8 +4,10 @@ const array3 = ['perro', 'gato', 'zorro', 10, 20, 30, 'elefante']
 
 const checkLengthDelLast = (arr) => { 
   if (arr.length > 5){
-    console.log(arr.slice(0,-3))
+    console.log(arr.slice(0,-3));
 }
   else {console.log('error: array not long enough')}
 }
-checkLengthDelLast(array3)
+checkLengthDelLast(array);
+checkLengthDelLast(array2);
+checkLengthDelLast(array3);

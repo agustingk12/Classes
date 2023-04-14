@@ -4,4 +4,4 @@ const arraySum = (arr) => {
   const sum = array.map((b) => b + 1);
   console.log(sum);
 }
-arraySum(array)
+arraySum(array);

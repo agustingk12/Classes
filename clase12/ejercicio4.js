@@ -6,4 +6,4 @@ const newArray = (arr) => {
 console.log;
 }
 
-newArray(50)
+newArray(50);

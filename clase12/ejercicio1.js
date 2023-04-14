@@ -4,4 +4,4 @@ const deleteFirst = (arr) => {
   console.log(arr);
 }
 
-deleteFirst (car)
+deleteFirst (car);

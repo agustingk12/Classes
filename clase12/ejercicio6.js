@@ -7,4 +7,5 @@ function sortSum(arr){
   console.log(sum);
 }
 
-sortSum(array1)
+sortSum(array);
+sortSum(array1);
