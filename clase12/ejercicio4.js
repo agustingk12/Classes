@@ -1,9 +1,6 @@
-const newArray = (arr) => {
-  const array = []
-  for (let b = 0; b < arr; b++){
-      array.push(b);
-  }return array;
-console.log;
-}
+const newArrayFromNumber = (number) => {
+  const filledArray = Array.from({length: number}, (v,i) => i );
+  return filledArray;
+  }
 
-newArray(50);
+newArrayFromNumber(50);

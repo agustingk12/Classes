@@ -1,16 +1,15 @@
 const array = [1,1,1,1,1,2,1,1,1]
 const array1 = [5,5,5,5,5,4,5,5,5,5,]
 
-function findOther(arr) {
-  let newArray = [];
-  let number = arr[0];
-  for (let i = 0; i < arr.length; i++) {
-    if (number === arr[i]) {
-      newArray.push(number);
-    }
+function findUnique(arr) {
+  arr.sort((a,b) => a - b);
+  if(arr[0] < arr[1]){
+    arr.shift();
   }
-  return newArray;
+  if(arr.at(-1) > arr[0]){
+    arr.pop();
+  }return arr
 }
 
-findOther(array);
-findOther(array1);
+findUnique(array);
+findUnique(array1);

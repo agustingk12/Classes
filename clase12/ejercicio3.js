@@ -1,7 +1,7 @@
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const arraySum = (arr) => {
-  const sum = array.map((b) => b + 1);
-  console.log(sum);
+const arraySum = (arr, num) => {
+  const sum = array.map((number) => number + num);
+  return sum;
 }
-arraySum(array);
+console.log(arraySum(array, 5));

@@ -3,17 +3,11 @@ const array2 = [3, 6, -2, -5, 7, 3]
 const array3 = [5, 1, 2, 3, 1, 4]
 
 
-const adjacentProduct = arr => {
-  let max = arr[0] * arr[1];
-  for (let i = 1; i < arr.length - 1; i++) {
-    if (arr[i] * arr[i + 1] > max) {
-      max = arr[i] * arr[i + 1];
-    }
-  }
-  return max;
-  console.log(array);
+const maxAdjacentProduct = (numbers) => {
+  const resultArray = numbers.map((number,i) => number * numbers[i + 1]).slice(0,-1);
+  return resultArray;
 }
 
-adjacentProduct(array);
-adjacentProduct(array2);
-adjacentProduct(array3);
+maxAdjacentProduct(array);
+maxAdjacentProduct(array2);
+maxAdjacentProduct(array3);
