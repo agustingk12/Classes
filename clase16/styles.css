@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(90deg,orange, crimson );
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.container{
+    width:fit-content;
+    height:fit-content;
+    margin:auto;
+    padding: 5%;
+}
+h1 ::before{
+    content: "🔎";
+}
+button{
+    background-color: gold;
+    border-radius: 10px;
+    font-weight: bold;
+    ;
+}
