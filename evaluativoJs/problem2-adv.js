@@ -39,5 +39,5 @@ const timeFromTheThird = () => {
   let totalHours = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
   let totalMinutes = Math.floor((difference % (1000 * 60)) / (1000 * 60));
   
-  return `It's been ${totalDays} days, ${totalHours} hours and ${totalMinutes} minutes since ${day} ${third.getDate()} of ${month} ${third.getFullYear()}`;
+  return `Pasaron ${totalDays} dias, ${totalHours} horas y ${totalMinutes} minutos desde el ${day}, ${third.getDate()} de ${month} de ${third.getFullYear()}`;
 };
