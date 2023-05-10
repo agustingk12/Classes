@@ -382,7 +382,7 @@ const listUsersWithMovie = (users, movies) => {
     return {
       name: user.name,
       email: user.email,
-      movie: movies.find((movie) => (movie.userId = user.id)).movie,
+      movie: movies.find((movie) => (movie.userId === user.id)).movie,
     };
   });
 };
